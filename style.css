@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Red+Hat+Display:wght@900&display=swap');
+
+p {
+    margin: 0;
+}
+
+/* 
+font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+*/
+
+body {
+    background-color: rgb(170, 197, 248);
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+    margin: 50px 10px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.img-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px ;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
+
+.p1 {
+color: hsl(224, 23%, 55%);
+font-family: 'Red Hat Display', sans-serif;
+font-size: 15px;
+}
+
+.info {
+    text-align: center;
+    margin: 0 30px;
+}
+
+.lol {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.music {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0;
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 14px;
+    
+}
+
+.music .p2 {
+color: hsl(224, 23%, 55%);
+
+}
+
+.music a {
+ font-size: 13px;
+ color: blue;
+}
+
+button {
+    width: 100%;
+    margin: 10px;
+}
+
+.b1 {
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    border: none;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 12px;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+
+.b2 {
+    background-color: unset;
+    border: none;
+    font-size: 15px;
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 30px;
+
+}
+
+.b1:hover {
+    background-color:hsl(269, 99%, 45%);
+}
+
+.b2:hover {
+    color: black;
+}
+
+
+
+@media (min-width:425px){
+    
+    body {
+        margin: auto;
+    }
+    .container {
+        margin:auto;
+        max-width: 400px;
+    }
+    
+    .img-top {
+        max-width: 100%;
+    }
+
+}
